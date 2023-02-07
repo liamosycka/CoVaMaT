@@ -1,0 +1,21 @@
+{
+
+  "keywords": [],
+  "author": "LiamOsycka",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liamosycka/CoVaMaT"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "dotenv": "^16.0.3",
+    "lodash": "^4.17.21",
+    "mongodb": "^5.0.1",
+    "nodemon": "^2.0.20"
+  }
+}
